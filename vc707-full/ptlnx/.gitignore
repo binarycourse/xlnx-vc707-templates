@@ -1,0 +1,14 @@
+# Petalinux Project Gitignore Files
+*/*/config.old
+*/*/rootfs_config.old
+build/
+images/linux/
+pre-built/linux/
+.petalinux
+!.petalinux/metadata
+*.o
+*.jou
+*.log
+project-spec/meta-plnx-generated/
+/components/plnx_workspace
+
